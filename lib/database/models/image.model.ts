@@ -4,7 +4,7 @@ export interface IImage extends Document {
     title: string;
     transformationType: string;
     publicId: string;
-    secureRrl: string;
+    secureUrl: string;
     width?: number;
     height?: number;
     config?: object;
